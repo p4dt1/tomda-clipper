@@ -1,0 +1,5 @@
+:root{--bg:#fafafa;--fg:#1a1a1a;--muted:#555;--accent:#ea580c}
+@media (prefers-color-scheme:dark){:root{--bg:#141414;--fg:#eee;--muted:#aaa}}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,sans-serif;max-width:720px;margin:0 auto;padding:32px 16px}
+h1{color:var(--accent);margin-bottom:4px}h2{margin-top:28px}p.meta{color:var(--muted);margin-top:0}
+nav a{margin-right:16px;color:var(--accent)}
